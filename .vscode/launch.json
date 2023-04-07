@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UnchekedException",
+            "request": "launch",
+            "mainClass": "exceptions.UnchekedException",
+            "projectName": "Bootcamp-Java-Dio_87a91447"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -19,11 +26,14 @@
         },
         {
             "type": "java",
-            // "name": "SobreMim",
             "request": "launch",
             "mainClass": "SobreMim",
-            // "projectName": "meu-primeiro-projeto-java_81db8fac",
-            "args": ["GLEYSON", "SAMPAIO", "28", "1.58"]
+            "args": [
+                "GLEYSON",
+                "SAMPAIO",
+                "28",
+                "1.58"
+            ]
         },
         {
             "type": "java",
