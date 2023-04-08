@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExceptionPersonalizada",
+            "request": "launch",
+            "mainClass": "exceptions.ExceptionPersonalizada",
+            "projectName": "Bootcamp-Java-Dio_87a91447"
+        },
+        {
+            "type": "java",
             "name": "CheckedException",
             "request": "launch",
             "mainClass": "exceptions.CheckedException",

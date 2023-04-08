@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 
 public class CheckedException {
     public static void main(String[] args) {
-        String nomeDoArquivo = "arquivo-teste.txt"; // nome do arquivo escrito errado para testar o try/catch 
+        String nomeDoArquivo = "arquivoteste.txt"; // nome do arquivo escrito errado para testar o try/catch 
 
         try {
             imprimirArquivoNoConsole(nomeDoArquivo);
