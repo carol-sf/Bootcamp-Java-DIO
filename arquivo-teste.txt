@@ -1,0 +1,1 @@
+Esse arquivo é para testar a leitura de arquivo da classe CheckedException.
