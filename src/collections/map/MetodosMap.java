@@ -60,7 +60,7 @@ public class MetodosMap {
         // Collections.max(), entrySet(), getValue(), getKey()
         System.out.println("\nExiba o modelo mais econômico e seu consumo: ");
         Double consumoMaisEficiente = Collections.max(carrosPopulares.values());
-        Set<Map.Entry<String,Double>> entries = carrosPopulares.entrySet();
+        Set<Map.Entry<String,Double>> entries = carrosPopulares.entrySet(); //me retorna uma lista de Maps?
         String modeloMaisEficiente = "";
 
         for(Map.Entry<String,Double> entry : entries) {
