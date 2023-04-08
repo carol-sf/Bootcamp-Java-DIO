@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MetodosSet",
+            "request": "launch",
+            "mainClass": "collections.set.MetodosSet",
+            "projectName": "Bootcamp-Java-Dio_87a91447"
+        },
+        {
+            "type": "java",
             "name": "OrdenacaoList",
             "request": "launch",
             "mainClass": "collections.list.OrdenacaoList",
