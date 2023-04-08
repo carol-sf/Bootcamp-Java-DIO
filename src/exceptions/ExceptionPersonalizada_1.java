@@ -54,4 +54,22 @@ class ImpossivelAberturaDeArquivoException extends Exception {
         this.nomeDoArquivo = nomeDoArquivo;
         this.diretorio = diretorio;
     }
+
+    public String getNomeDoArquivo() {
+        return nomeDoArquivo;
+    }
+
+    public void setNomeDoArquivo(String nomeDoArquivo) {
+        this.nomeDoArquivo = nomeDoArquivo;
+    }
+
+    public String getDiretorio() {
+        return diretorio;
+    }
+
+    public void setDiretorio(String diretorio) {
+        this.diretorio = diretorio;
+    }
+
+    
 }
