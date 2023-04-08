@@ -51,6 +51,7 @@ public class OrdenacaoMap {
             System.out.println(livro.getKey() + " - " + livro.getValue().getNome());
         }
         
+        // TreeMap - fazendo meu próprio comparator
         System.out.println("\n--\tOrdem alfabética nomes dos livros\t--");
         Set<Map.Entry<String,Livro>> livros4 = new TreeSet<>(new ComparatorNome());
         livros4.addAll(livros.entrySet());
