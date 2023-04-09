@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExerciciosStreamApi",
+            "request": "launch",
+            "mainClass": "collections.stream.ExerciciosStreamApi",
+            "projectName": "Bootcamp-Java-Dio_87a91447"
+        },
+        {
+            "type": "java",
             "name": "Agenda",
             "request": "launch",
             "mainClass": "collections.stream.Agenda",
