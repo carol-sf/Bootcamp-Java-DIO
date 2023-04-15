@@ -143,9 +143,9 @@ public class ExerciciosStreamApi {
         // System.out.println(numerosOrdemNatural);
 
         // ---------------------------------------------------------------------------------------------------------------
-        System.out.println("Agrupe os valores ímpares múltiplos de 3 ou de 5:");
-        Map<Boolean, List<Integer>> numerosMultiplosDe3e5 = numerosAleatoriosInteger.stream()
-            .collect(Collectors.groupingBy(i -> (i % 3 == 0 || i % 5 == 0)));
-        System.out.println(numerosMultiplosDe3e5);
+        // System.out.println("Agrupe os valores ímpares múltiplos de 3 ou de 5:");
+        // Map<Boolean, List<Integer>> numerosMultiplosDe3e5 = numerosAleatoriosInteger.stream()
+        //     .collect(Collectors.groupingBy(i -> (i % 3 == 0 || i % 5 == 0)));
+        // System.out.println(numerosMultiplosDe3e5);
     }
 }
