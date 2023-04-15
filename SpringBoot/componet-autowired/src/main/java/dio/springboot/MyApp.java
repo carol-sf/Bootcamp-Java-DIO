@@ -6,8 +6,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MyApp implements CommandLineRunner {
-    @Autowired
+    
+    @Autowired //pra não ter que botar o "= new Calculadora()"
     private Calculadora calculadora;
+
     @Override
     public void run(String... args) throws Exception {
         System.out.println("\nO resultado é " + calculadora.somar(2, 7) + "\n");

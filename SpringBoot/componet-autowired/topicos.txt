@@ -1,0 +1,6 @@
+Criando um projeto Maven já com as configurações iniciais através do Spring Boot: 
+--> https://start.spring.io/;
+
+- implements CommandLineRunner
+- Component
+- Autowired
