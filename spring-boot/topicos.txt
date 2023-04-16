@@ -1,0 +1,15 @@
+Criando um projeto Maven já com as configurações iniciais através do Spring Boot: 
+--> https://start.spring.io/;
+
+- implements CommandLineRunner
+- Component
+- Autowired
+
+- Bean
+- public CommandLineRunner run()
+
+- Scope
+
+---- Anotações ----------------------------------------------------------------------------------------------
+
+Java: Clean Java Language Server Workspac
