@@ -1,7 +1,13 @@
 package dio.springboot;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class SistemaMensagem {
+    @Autowired
     private Remetente noreply;
+    @Autowired
     private Remetente techTeam;
 
     public void enviarConfirmacaoCadastro() {
@@ -12,24 +18,22 @@ public class SistemaMensagem {
     public void enviarMensagemBoasVindas() {
         techTeam.setEmail("tech@dio.com.br");
         System.out.println(techTeam);
+        System.out.println(noreply);
         System.out.println("Bem-vindo à Tech Elite!");
     }
 
-    public Remetente getNoreply() {
-        return noreply;
-    }
+    // SÓ PRECISAVA PRA TESTAR INSTANCIANDO OS OBJETOS DIRETAMENTE NO MAIN
+    // public Remetente getNoreply() {
+    //     return noreply;
+    // }
+    // public void setNoreply(Remetente noreply) {
+    //     this.noreply = noreply;
+    // }
+    // public Remetente getTechTeam() {
+    //     return techTeam;
+    // }
+    // public void setTechTeam(Remetente techTeam) {
+    //     this.techTeam = techTeam;
+    // }
 
-    public void setNoreply(Remetente noreply) {
-        this.noreply = noreply;
-    }
-
-    public Remetente getTechTeam() {
-        return techTeam;
-    }
-
-    public void setTechTeam(Remetente techTeam) {
-        this.techTeam = techTeam;
-    }
-
-    
 }
