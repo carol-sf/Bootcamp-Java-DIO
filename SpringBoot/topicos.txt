@@ -4,3 +4,4 @@ Criando um projeto Maven já com as configurações iniciais através do Spring 
 - implements CommandLineRunner
 - Component
 - Autowired
+- Bean
