@@ -9,6 +9,7 @@ Criando um projeto Maven já com as configurações iniciais através do Spring 
 - public CommandLineRunner run()
 
 - Scope
+- Properties Value
 
 ---- Anotações ----------------------------------------------------------------------------------------------
 
