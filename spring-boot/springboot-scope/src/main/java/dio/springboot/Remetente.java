@@ -22,10 +22,7 @@ public class Remetente {
 
     @Override
     public String toString() {
-        return "Remetente{" +
-                "nome='" + nome + '\'' +
-                ", email='" + email + '\'' +
-                '}';
+        return "Remetente [nome=" + nome + ", email=" + email + "]";
     }
 
 }
